@@ -32,6 +32,9 @@ const routes: Routes = [{
     path: 'tables',
     loadChildren: './tables/tables.module#TablesModule',
   }, {
+      path: 'scripts',
+      loadChildren: './scripts/scripts.module#ScriptsModule',
+  }, {
     path: '',
     redirectTo: 'dashboard',
     pathMatch: 'full',
